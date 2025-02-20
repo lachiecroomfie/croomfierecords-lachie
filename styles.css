@@ -62,11 +62,11 @@ nav ul li a:hover {
 /*footer*/
 
 .footer {
-  background-color: #0B4F6E; /* Matches the main page background */
+  background-color: #0B4F6E; 
   color: white;
   text-align: center;
   padding: 20px;
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
   font-size: 14px;
@@ -84,7 +84,7 @@ nav ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
     justify-content: center;
     align-items: center;
     text-align: center;
