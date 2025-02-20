@@ -21,8 +21,8 @@ header .logo a {
 }
 
 header .logo-image {
-    width: 530px; /* Adjust the width of your logo */
-    height: auto;
+    width: 530px; 
+    height: 50px;
 }
 
 nav ul {
