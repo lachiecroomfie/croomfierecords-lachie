@@ -71,7 +71,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('https://via.placeholder.com/1920x1080?text=Welcome+to+MyStore') no-repeat center center fixed;
+    background: url('./pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
     background-size: cover;
     position: relative; /* Ensure absolute positioning for overlay */
     color: white;
