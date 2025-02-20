@@ -21,7 +21,7 @@ header .logo a {
 }
 
 header .logo-image {
-    height: 25%;
+    max-height: 10px;
 }
 
 nav ul {
