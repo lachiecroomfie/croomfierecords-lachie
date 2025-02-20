@@ -203,6 +203,7 @@ nav ul li a:hover {
 
 /*discography page*/
 
+/* Discography Page */
 .discography-title {
   text-align: center; 
   margin-top: 2em; 
@@ -216,19 +217,18 @@ nav ul li a:hover {
 
 .discography {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0; 
-  margin-top: 0; 
-  width: 100%;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 1em;  
+  margin-top: 2em;
   padding: 0 1em;
 }
 
 .albums {
-  width: 48%;
-  padding: 0;
   text-align: center;
   margin-bottom: 0.75em;
+  width: 100%;
+  max-width: 250px; 
 }
 
 .album-link {
@@ -236,14 +236,12 @@ nav ul li a:hover {
   text-decoration: none;
   color: inherit;
   width: 100%;
-  max-width: 250px; /* Restrict max width of album cover */
   margin: 0;
   padding: 0;
   text-align: center;
   cursor: pointer;
   transition: box-shadow 0.3s, transform 0.3s ease-in-out;
   border-radius: 10px;
-  text-color: white;
 }
 
 .album-link:hover {
@@ -252,9 +250,9 @@ nav ul li a:hover {
 }
 
 .album-link img {
-    height: auto;
     width: 100%;
-    max-height: 250px; /* Limit the image height */
+    height: auto;
+    max-height: 250px;
     border-radius: 8px;
 }
 
@@ -265,56 +263,28 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
-
-.album img {
-    height: auto;
-    width: 100%;
-}
-/*album sizing - mobile/small screen*/
-
-.discography {
-  display: flex;
-  justify-content: center; 
-  gap: 1em; 
-  flex-wrap: wrap;
-}
-
-.albums {
-  flex: 1 1 calc(50% - 1em); 
-  box-sizing: border-box;
-  max-width: calc(50% - 1em); 
-}
-
-/* 1 album only */
-.discography:has(.albums:nth-child(1)) {
-  justify-content: center; 
-}
-
-/* album sizing desktop */
-@media (min-width: 1024px) {
+/* responsive layout */
+@media screen and (max-width: 768px) {
   .discography {
-    display: flex;
-    justify-content: center;
-    gap: 1em; 
-    flex-wrap: wrap; 
+    gap: 1.5em;
+    justify-content: center; 
   }
 
   .albums {
-    flex: 1 1 calc(25% - 1em); 
-    box-sizing: border-box;
-    max-width: calc(25% - 1em); 
+    width: 100%; 
+    max-width: 200px;  
+  }
+}
+
+/* Desktops */
+@media screen and (min-width: 1024px) {
+  .discography {
+    justify-content: center;
+    gap: 1.5em;  
   }
 
-  /*When there is less than 4 albums */
-  .discography:has(.albums:nth-child(3)) {
-    justify-content: center; /
-  }
-
-  .discography:has(.albums:nth-child(2)) {
-    justify-content: center; /
-  }
-    
-  .discography:has(.albums:nth-child(1)) {
-    justify-content: center; 
+  .albums {
+    width: 100%;
+    max-width: 250px; 
   }
 }
