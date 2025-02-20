@@ -13,7 +13,7 @@ body {
 
 header {
     color: white;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.2);
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -37,7 +37,6 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
-    padding-right: 40px;
 }
 
 nav ul li {
