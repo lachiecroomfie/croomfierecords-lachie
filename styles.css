@@ -13,6 +13,7 @@ body {
 
 header {
     color: white;
+    background: rgba(0, 0, 0, 0.6);
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -83,7 +84,7 @@ nav ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
     justify-content: center;
     align-items: center;
     text-align: center;
