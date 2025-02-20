@@ -217,7 +217,6 @@ nav ul li a:hover {
   display: block;
   text-decoration: none;
   color: inherit;
-  width: 100%;
   max-width: 300px; /* Restrict max width of album cover */
   margin: 0;
   padding: 0;
