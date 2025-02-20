@@ -64,7 +64,6 @@ nav ul li a:hover {
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.4); /* Dark overlay */
-    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
