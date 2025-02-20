@@ -213,6 +213,13 @@ nav ul li a:hover {
   padding: 0 1em;
 }
 
+.albums {
+  width: 48%;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 0.75em;
+}
+
 .album-link {
   display: block;
   text-decoration: none;
@@ -259,14 +266,14 @@ nav ul li a:hover {
   flex-wrap: wrap;
 }
 
-.album-link {
+.albums {
   flex: 1 1 calc(50% - 1em); 
   box-sizing: border-box;
   max-width: calc(50% - 1em); 
 }
 
 /* 1 album only */
-.discography:has(.album-link:nth-child(1)) {
+.discography:has(.albums:nth-child(1)) {
   justify-content: center; 
 }
 
@@ -279,22 +286,22 @@ nav ul li a:hover {
     flex-wrap: wrap; 
   }
 
-  .album-link {
+  .albums {
     flex: 1 1 calc(25% - 1em); 
     box-sizing: border-box;
     max-width: calc(25% - 1em); 
   }
 
   /*When there is less than 4 albums */
-  .discography:has(.album-link:nth-child(3)) {
+  .discography:has(.albums:nth-child(3)) {
     justify-content: center; /
   }
 
-  .discography:has(.album-link:nth-child(2)) {
+  .discography:has(.albums:nth-child(2)) {
     justify-content: center; /
   }
     
-  .discography:has(.album-link:nth-child(1)) {
+  .discography:has(.albums:nth-child(1)) {
     justify-content: center; 
   }
 }
