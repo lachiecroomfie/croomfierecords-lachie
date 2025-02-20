@@ -38,6 +38,7 @@ nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    padding-right: 40px;
 }
 
 nav ul li {
