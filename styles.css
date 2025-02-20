@@ -290,11 +290,11 @@ nav ul li a:hover {
     justify-content: center; /
   }
 
-  .discography:has(.album-group:nth-child(2)) {
+  .discography:has(.album-link:nth-child(2)) {
     justify-content: center; /
   }
     
-  .discography:has(.album-group:nth-child(1)) {
+  .discography:has(.album-link:nth-child(1)) {
     justify-content: center; 
   }
 }
