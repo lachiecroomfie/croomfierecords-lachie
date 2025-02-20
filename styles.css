@@ -17,11 +17,12 @@ header {
 }
 
 header .logo a {
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-    padding-left: 20px;
-    font-weight: bold;
+    display: inline-block;
+}
+
+header .logo-image {
+    width: 530px; /* Adjust the width of your logo */
+    height: auto;
 }
 
 nav ul {
