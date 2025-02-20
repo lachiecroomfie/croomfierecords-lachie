@@ -207,30 +207,46 @@ nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 0;
-  margin-top: 0;
+  gap: 1.5em; /* Space between the album items */
+  margin-top: 2em; /* Adds margin on top */
   width: 100%;
   padding: 0 1em;
 }
 
-.album {
+.album-link {
   display: block;
   text-decoration: none;
   color: inherit;
   width: 100%;
-  max-width: none;
+  max-width: 300px; /* Restrict max width of album cover */
   margin: 0;
   padding: 0;
   text-align: center;
   cursor: pointer;
   transition: box-shadow 0.3s, transform 0.3s ease-in-out;
   border-radius: 10px;
+  background-color: white; /* Optional: adds background color */
 }
 
-.album:hover {
+.album-link:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: translateY(-5px);
 }
+
+.album-link img {
+    height: auto;
+    width: 100%;
+    max-height: 250px; /* Limit the image height */
+    border-radius: 8px;
+}
+
+.album-link p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
 
 .album img {
     height: auto;
