@@ -217,7 +217,7 @@ nav ul li a:hover {
 .discography {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 0; 
   margin-top: 0; 
   width: 100%;
