@@ -148,7 +148,7 @@ nav ul li a:hover {
 }
 
 .image-carousel {
-    width: 80%;
+    width: 100%;
     max-width: 800px;
     position: relative;
 }
@@ -168,6 +168,7 @@ nav ul li a:hover {
     height: 100%;
     object-fit: cover;
     object-position: center;
+    flex: 0 0 100%;
     transition: opacity 0.5s ease-in-out;
 }
 
