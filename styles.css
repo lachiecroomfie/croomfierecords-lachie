@@ -223,7 +223,7 @@ nav ul li a:hover {
 .album-link {
   display: block;
   text-decoration: none;
-  color: inherit;
+  color: white;
   max-width: 250px; /* Restrict max width of album cover */
   margin: 0;
   padding: 0;
