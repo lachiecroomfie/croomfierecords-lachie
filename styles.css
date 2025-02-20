@@ -59,6 +59,23 @@ nav ul li a:hover {
     padding: 20px;
 }
 
+/*footer*/
+
+.footer {
+  background-color: #0B4F6E; /* Matches the main page background */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.footer p {
+  margin: 0;
+}
+
 /*home page*/
 
 .overlay {
