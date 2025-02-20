@@ -22,7 +22,7 @@ header .logo a {
 
 header .logo-image {
     width: 530px; 
-    height: 50px;
+    height: 25%;
 }
 
 nav ul {
@@ -71,7 +71,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('./pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
+    background: url("./pictures/dontshow-fullscreen.jpg") no-repeat center center fixed;
     background-size: cover;
     position: relative; /* Ensure absolute positioning for overlay */
     color: white;
