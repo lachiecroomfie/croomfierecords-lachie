@@ -97,7 +97,7 @@ nav ul li a:hover {
     align-items: center;
     height: 100vh;
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
-    background-size: contain;
+    background-size: cover;
     position: relative; /* Ensure absolute positioning for overlay */
     color: white;
 }
