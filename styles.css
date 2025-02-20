@@ -1,0 +1,183 @@
+body {
+    font-family: Garamond, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0B4F6E;
+}
+
+header {
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 40px;
+}
+
+nav ul li {
+    font-size: 16px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://via.placeholder.com/1920x1080?text=Welcome+to+MyStore') no-repeat center center fixed;
+    background-size: cover;
+    position: relative; /* Ensure absolute positioning for overlay */
+    color: white;
+}
+
+.image-carousel {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.carousel img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-details {
+    width: 40%;
+    padding: 20px;
+    border-radius: 8px;
+    justify-content: center;
+    text-align: center;
+}
+
+.product-details h2 {
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.product-details p {
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.dl-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dl:hover {
+    background-color: black;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.home-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: background-color 0.3s;
+    z-index: 2;
+}
+
+.home-button:hover {
+    background-color: aquamarine;
+}
+
+.home-button:active {
+    background-color: aquamarine;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carousel-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
