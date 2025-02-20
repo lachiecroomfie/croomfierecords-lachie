@@ -221,7 +221,7 @@ nav ul li a:hover {
   gap: 0; 
   margin-top: 0; 
   width: 100%;
-  padding: 0 1em;
+  padding: 0 0em;
 }
 
 .albums {
@@ -259,7 +259,7 @@ nav ul li a:hover {
 
 .album-link p {
     font-size: 18px;
-    color: #333;
+    color: white;
     margin-top: 10px;
     font-weight: bold;
 }
