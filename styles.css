@@ -74,35 +74,44 @@ nav ul li a:hover {
 }
 
 /*home page*/
+.overlay-container {
+    display: flex;
+    flex-direction: column;
+}
 
 .overlay {
     display: flex;
     flex-direction: column;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
     background: rgba(0, 0, 0, 0.8); /* Dark overlay */
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 100%;
+    height: 100vh;
+    margin-botoom: 20px;
 }
 
-.home-page, .home-slide2 {
+.home-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background-size: cover;
     position: relative; 
     color: white;
-}
-.home-page {
+    background-size: cover;
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
+    background-position: center;
 }
 
 .home-slide-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    color: white;
+    background-size: cover;
+    background-position: center;
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/refs/heads/main/pictures/hyperola-banner.jpg') no-repeat center center fixed;
 }
 
