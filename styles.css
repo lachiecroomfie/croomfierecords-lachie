@@ -97,7 +97,7 @@ nav ul li a:hover {
 .overlay {
     display: flex;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.8); /* Dark overlay */
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -119,7 +119,6 @@ nav ul li a:hover {
     background-position: center;
     width: 100%;
     height: 100%;
-    scroll-snap-align: start;
 }
 
 .home-slide-2 {
@@ -134,7 +133,6 @@ nav ul li a:hover {
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/hyperola-banner.jpg') no-repeat center center fixed;
     width: 100%;
     height: 100%;
-    scroll-snap-align: start;
 }
 
 .home-button {
