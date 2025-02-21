@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 1000;
     height: 60px;
@@ -82,6 +82,7 @@ nav ul li a:hover {
     scroll-snap-type: y mandatory;
     width: 100%;
     height: auto;
+    margin-top: 60px;
 }
 
 .overlay {
@@ -95,8 +96,6 @@ nav ul li a:hover {
     height: 100vh;
     z-index: 2;
     scroll-snap-align: start;
-    padding-top: 60px;
-    height: calc(100vh - 60px);
 }
 
 .home-page {
