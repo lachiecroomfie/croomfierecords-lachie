@@ -83,7 +83,6 @@ nav ul li a:hover {
     scroll-snap-type: y mandatory;
     width: 100%;
     height: auto;
-    margin-top: 60px;
 }
 
 .overlay {
@@ -95,7 +94,7 @@ nav ul li a:hover {
     text-align: center;
     width: 100%;
     height: 100vh;
-    z-index: 2;
+    z-index: 1;
     scroll-snap-align: start;
 }
 
@@ -110,8 +109,7 @@ nav ul li a:hover {
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
     background-position: center;
     width: 100%;
-    height: 100vh;
-    z-index: 1;
+    height: 100%;
     scroll-snap-align: start;
 }
 
@@ -126,8 +124,7 @@ nav ul li a:hover {
     background-position: center;
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/hyperola-banner.jpg') no-repeat center center fixed;
     width: 100%;
-    height: 100vh;
-    z-index: 1;
+    height: 100%;
     scroll-snap-align: start;
 }
 
