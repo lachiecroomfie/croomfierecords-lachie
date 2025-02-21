@@ -253,7 +253,6 @@ nav ul li a:hover {
 
 /*discography page*/
 
-/* Discography Page */
 .discography-title {
   text-align: center; 
   margin-top: 2em; 
@@ -312,6 +311,54 @@ nav ul li a:hover {
     font-weight: bold;
 }
 
+.videography {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 1em;  
+  margin-top: 2em;
+  padding: 0 1em;
+}
+
+.video-gr {
+  text-align: center;
+  margin-bottom: 0.75em;
+  width: 100%;
+  max-width: 500px; 
+}
+
+.video {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: box-shadow 0.3s, transform 0.3s ease-in-out;
+}
+
+.video:hover {
+    transform: translateY(-5px);
+}
+
+.video img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    border-radius: 8px;
+}
+
+.video p {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
 /* responsive layout */
 @media screen and (max-width: 768px) {
   .discography {
@@ -323,6 +370,15 @@ nav ul li a:hover {
     width: 100%; 
     max-width: 200px;  
   }
+    .videography {
+    gap: 1.5em;
+    justify-content: center; 
+    }
+    
+    .video-gr {
+    width: 100%;
+    max-width: 400px; 
+    }
 }
 
 /* Desktops */
@@ -336,4 +392,13 @@ nav ul li a:hover {
     width: 100%;
     max-width: 250px; 
   }
+      .videography {
+    gap: 1.5em;
+    justify-content: center; 
+    }
+    
+    .discography {
+    width: 100%;
+    max-width: 500px; 
+    }
 }
