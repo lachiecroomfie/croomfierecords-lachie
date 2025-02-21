@@ -11,7 +11,7 @@ body {
 }
 
 /*header*/
-body.homepage.header {
+body.homepage header {
     color: white;
     background: rgba(0, 0, 0, 0.05);
     padding: 10px 0;
