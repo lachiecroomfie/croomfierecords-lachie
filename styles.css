@@ -71,6 +71,7 @@ nav ul li a:hover {
   height: 50px;
   width: 100%;
   font-size: 14px;
+    z-index: 3;
 }
 
 /*home page*/
@@ -88,7 +89,7 @@ nav ul li a:hover {
     text-align: center;
     width: 100%;
     height: 100vh;
-    z-index: 1;
+    z-index: 2;
 }
 
 .home-page {
@@ -118,6 +119,7 @@ nav ul li a:hover {
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/hyperola-banner.jpg') no-repeat center center fixed;
     width: 100%;
     height: 100vh;
+    z-index: 1;
 }
 
 .home-button {
