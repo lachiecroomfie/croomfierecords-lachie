@@ -76,8 +76,8 @@ nav ul li a:hover {
 /*home page*/
 
 .overlay {
-    display: block;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
     top: 0;
     left: 0;
     right: 0;
@@ -88,28 +88,22 @@ nav ul li a:hover {
     text-align: center;
 }
 
-.home-page {
+.home-page, .home-slide2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
+    min-height: 100vh;
     background-size: cover;
     position: relative; 
     color: white;
 }
+.home-page {
+    background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
+}
 
 .home-slide-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/refs/heads/main/pictures/hyperola-banner.jpg') no-repeat center center fixed;
-    background-size: cover;
-    position: relative; 
-    color: white;
 }
 
 .home-button {
