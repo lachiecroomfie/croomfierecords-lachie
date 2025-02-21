@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 body {
@@ -78,6 +79,7 @@ nav ul li a:hover {
 .overlay-container {
     display: flex;
     flex-direction: column;
+    scroll-snap-type: y mandatory;
 }
 
 .overlay {
