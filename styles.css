@@ -88,6 +88,7 @@ nav ul li a:hover {
     text-align: center;
     width: 100%;
     height: 100vh;
+    z-index: 1;
 }
 
 .home-page {
@@ -102,6 +103,7 @@ nav ul li a:hover {
     background-position: center;
     width: 100%;
     height: 100vh;
+    z-index: 1;
 }
 
 .home-slide-2 {
