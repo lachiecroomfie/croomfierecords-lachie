@@ -95,7 +95,19 @@ nav ul li a:hover {
     height: 100vh;
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
     background-size: cover;
-    position: relative; /* Ensure absolute positioning for overlay */
+    position: absolute; 
+    color: white;
+}
+
+.home-slide-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: absolute; 
     color: white;
 }
 
