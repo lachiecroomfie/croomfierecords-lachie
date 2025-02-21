@@ -95,7 +95,7 @@ nav ul li a:hover {
     height: 100vh;
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
     background-size: cover;
-    position: absolute; 
+    position: relative; 
     color: white;
 }
 
@@ -107,7 +107,7 @@ nav ul li a:hover {
     height: 100vh;
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
     background-size: cover;
-    position: absolute; 
+    position: relative; 
     color: white;
 }
 
