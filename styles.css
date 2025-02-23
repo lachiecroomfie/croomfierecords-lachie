@@ -107,23 +107,22 @@ nav ul li a:hover {
     position: relative; 
     z-index: 3; /* Ensure they're stacked below the overlay */
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+    overflow: hidden;
 }
 
 .home-page {
     background-size: cover;
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
-    background-position: center;
 }
 
 .home-slide-2 {
     background-size: cover;
-    background-position: center;
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/hyperola-banner.jpg') no-repeat center center fixed;
 }
 
