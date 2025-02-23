@@ -1,17 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Lachie's Ola</title>
-    <link rel="stylesheet" href="styles.css"> 
-</head>
 <body class="homepage">
+    <!-- Header (Fixed on top) -->
     <header>
         <div class="logo">
             <a href="#">
                 <img src="./pictures/lachie-logo.png" alt="logo" class="logo-image">
-            </a> 
+            </a>
         </div>
         <nav>
             <ul>
@@ -21,9 +16,9 @@
             </ul>
         </nav>
     </header>
-    
+
+    <!-- Overlay container that wraps the overlay and content -->
     <div class="overlay-container">
-        <!-- Overlay Section 1 -->
         <div class="overlay">
             <div class="home-page">
                 <h1>DON'T SHOW (BUT DO TELL)</h1>
@@ -34,7 +29,6 @@
             </div>
         </div>
 
-        <!-- Overlay Section 2 -->
         <div class="overlay">
             <div class="home-slide-2">
                 <h1>hyperola</h1>
@@ -46,25 +40,10 @@
         </div>
     </div>
 
+    <!-- Footer -->
     <footer class="footer">
         <p>&copy; 2025 Croomfie Records. All rights reserved.</p>
     </footer>
-
-    <script>
-        // Optional: JavaScript to toggle the overlay visibility
-        const overlays = document.querySelectorAll('.overlay');
-        
-        // Function to show overlay
-        function showOverlay() {
-            overlays.forEach(overlay => {
-                overlay.classList.add('active'); // Add 'active' class to make it visible
-            });
-        }
-
-        // Example: Show overlay after 2 seconds (change as per your logic)
-        document.addEventListener('DOMContentLoaded', () => {
-            setTimeout(showOverlay, 2000); // Show overlay after 2 seconds
-        });
-    </script>
 </body>
+
 </html>
