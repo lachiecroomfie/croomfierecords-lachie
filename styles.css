@@ -98,11 +98,13 @@ nav ul li a:hover {
 .homesec:nth-of-type(1){
     background-size: cover;
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
+    background-position: center;
 }
 
 .homesec:nth-of-type(2){
     background-size: cover;
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/hyperola-banner.jpg') no-repeat center center fixed;
+    background-position: center;
 }
 
 .homesec > * {
@@ -139,6 +141,13 @@ nav ul li a:hover {
 .home-button:active {
     background-color: #0B4F6E;
     color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .homesec {
+    justify-content: center; 
+    text-align: center;
+  }
 }
 
 /*album pages*/
