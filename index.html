@@ -21,29 +21,45 @@
             </ul>
         </nav>
     </header>
-<div class="overlay-container">
-    <div class="overlay">
-        <div class="home-page">
-            <h1>DON'T SHOW (BUT DO TELL)</h1>
-            <p>New single from Lachie, Out February 28th, 4:00PM AEDT</p>
-            <div class="button-container">
-                <a href="dontshow.html" class="home-button">7" SINGLE</a>
+    <div class="overlay-container">
+        <!-- Overlay Section 1 -->
+        <div class="overlay">
+            <div class="home-page">
+                <h1>DON'T SHOW (BUT DO TELL)</h1>
+                <p>New single from Lachie, Out February 28th, 4:00PM AEDT</p>
+                <div class="button-container">
+                    <a href="dontshow.html" class="home-button">7" SINGLE</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Overlay Section 2 -->
+        <div class="overlay">
+            <div class="home-slide-2">
+                <h1>hyperola</h1>
+                <p>OUT NOW!</p>
+                <div class="button-container">
+                    <a href="hyperola.html" class="home-button">LEARN MORE</a>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="overlay">
-        <div class="home-slide-2">
-            <h1>hyperola</h1>
-            <p>OUT NOW!</p>
-            <div class="button-container">
-                <a href="hyperola.html" class="home-button">LEARN MORE</a>
-            </div>
-        </div>
-    </div>
-</div>
-<footer class="footer">
-          <p>&copy; 2025 Croomfie Records. All rights reserved.</p>
+    <footer class="footer">
+        <p>&copy; 2025 Croomfie Records. All rights reserved.</p>
     </footer>
+    <script>
+        // Optional: You can use JavaScript to toggle the overlay's visibility
+        const overlays = document.querySelectorAll('.overlay');
+        
+        // For example, toggle overlay visibility on page load (or based on some event)
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                overlays.forEach(overlay => {
+                    overlay.classList.add('active');  // Add 'active' class to show overlay after a delay
+                });
+            }, 2000);  // Show overlay after 2 seconds, for example
+        });
+    </script>
 </body>
 </html>
