@@ -92,28 +92,30 @@ nav ul li a:hover {
     scroll-snap-type: y mandatory;
     width: 100%;
     height: 100vh; /*was 100%*/
-    position: relative;
+    overflow-y: scroll;
 }
 
 .overlay {
-    position: absolute; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;  
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 10;  
     display: flex;
     flex-direction: column;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
     justify-content: center;
     align-items: center;
     text-align: center;
-    scroll-snap-align: start;
-    visibility: hidden;  
+    width: 100%;
+    height: 100vh; /* Make the overlay take up the full height */
+    position: absolute; /* Position the overlay above content */
+    top: 0;
+    z-index: 999; /* Higher z-index to overlay content */
+    visibility: hidden; /* Initially hidden */
+    opacity: 0; /* Initially transparent */
+    transition: visibility 0s 0.5s, opacity 0.5s ease; /* Fade-in effect */
 }
 
 .overlay.active {
     visibility: visible;
+    opacity: 1;
+    transition: opacity 0.5s ease; /* Fade-in effect */
 }
 
 .home-page {
@@ -127,7 +129,7 @@ nav ul li a:hover {
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
     background-position: center;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .home-slide-2 {
@@ -141,7 +143,7 @@ nav ul li a:hover {
     background-position: center;
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/hyperola-banner.jpg') no-repeat center center fixed;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .home-button {
