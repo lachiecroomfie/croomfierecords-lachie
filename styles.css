@@ -91,7 +91,7 @@ nav ul li a:hover {
     width: 100%;
     height: 100vh; /* Make the overlay take up the full height */
     background: rgba(0, 0, 0, 0.5); /* Dark overlay */
-    z-index: 2; /* Higher z-index to overlay content */
+    z-index: 5; /* Higher z-index to overlay content */
     visibility: hidden; /* Initially hidden */
     opacity: 0; /* Initially transparent */
     transition: visibility 0s 0.5s, opacity 0.5s ease; /* Fade-in effect */
@@ -105,7 +105,7 @@ nav ul li a:hover {
 
 .home-page, .home-slide-2 {
     position: relative; 
-    z-index: 3; /* Ensure they're stacked below the overlay */
+    z-index: 6; /* Ensure they're stacked below the overlay */
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -134,7 +134,7 @@ nav ul li a:hover {
     border-radius: 5px;
     border: 2px solid white;
     transition: background-color 0.3s;
-    z-index: 4;
+    z-index: 7;
 }
 
 .home-button:hover {
