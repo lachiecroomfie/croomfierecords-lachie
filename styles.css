@@ -84,7 +84,7 @@ nav ul li a:hover {
 /*home page*/
 .homesec{
     position: relative; 
-    z-index: 2; /* Ensure they're stacked below the overlay */
+    z-index: 2;
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -103,7 +103,7 @@ nav ul li a:hover {
 
 .homesec:nth-of-type(2){
     background-size: cover;
-    background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/hyperola-banner.jpg') no-repeat center center fixed;
+    background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/tdw-banner.jpg') no-repeat center center fixed;
     background-position: center;
 }
 
