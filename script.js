@@ -22,3 +22,8 @@ function nextImage() {
 
 // Initialize carousel
 showImage(currentIndex);
+
+function toggleOverlay() {
+    const overlay = document.querySelector('.overlay');
+    overlay.classList.toggle('active');  // Toggle visibility
+}
