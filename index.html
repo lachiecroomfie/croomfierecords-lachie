@@ -21,6 +21,7 @@
             </ul>
         </nav>
     </header>
+    
     <div class="overlay-container">
         <!-- Overlay Section 1 -->
         <div class="overlay">
@@ -48,17 +49,21 @@
     <footer class="footer">
         <p>&copy; 2025 Croomfie Records. All rights reserved.</p>
     </footer>
+
     <script>
-        // Optional: You can use JavaScript to toggle the overlay's visibility
+        // Optional: JavaScript to toggle the overlay visibility
         const overlays = document.querySelectorAll('.overlay');
         
-        // For example, toggle overlay visibility on page load (or based on some event)
+        // Function to show overlay
+        function showOverlay() {
+            overlays.forEach(overlay => {
+                overlay.classList.add('active'); // Add 'active' class to make it visible
+            });
+        }
+
+        // Example: Show overlay after 2 seconds (change as per your logic)
         document.addEventListener('DOMContentLoaded', () => {
-            setTimeout(() => {
-                overlays.forEach(overlay => {
-                    overlay.classList.add('active');  // Add 'active' class to show overlay after a delay
-                });
-            }, 2000);  // Show overlay after 2 seconds, for example
+            setTimeout(showOverlay, 2000); // Show overlay after 2 seconds
         });
     </script>
 </body>
