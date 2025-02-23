@@ -82,7 +82,7 @@ nav ul li a:hover {
   bottom: 0;
   width: 100%;
   font-size: 14px;
-    z-index: 1000;
+  z-index: 1000;
 }
 
 /*home page*/
@@ -104,7 +104,7 @@ nav ul li a:hover {
     width: 100%;
     height: 100vh; /* Make the overlay take up the full height */
     background: rgba(0, 0, 0, 0.5); /* Dark overlay */
-    z-index: 1; /* Higher z-index to overlay content */
+    z-index: 10; /* Higher z-index to overlay content */
     visibility: hidden; /* Initially hidden */
     opacity: 0; /* Initially transparent */
     transition: visibility 0s 0.5s, opacity 0.5s ease; /* Fade-in effect */
@@ -128,6 +128,7 @@ nav ul li a:hover {
     background-position: center;
     width: 100%;
     height: 100vh;
+    z-index: 1;
 }
 
 .home-slide-2 {
@@ -142,6 +143,7 @@ nav ul li a:hover {
     background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/hyperola-banner.jpg') no-repeat center center fixed;
     width: 100%;
     height: 100vh;
+    z-index: 1;
 }
 
 .home-button {
