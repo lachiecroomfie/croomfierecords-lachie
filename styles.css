@@ -112,7 +112,7 @@ nav ul li a:hover {
     z-index: 2;
 }
 
-.homesec:after {
+.homesec:before {
     content: "";
     position: absolute;
     left: 0;
