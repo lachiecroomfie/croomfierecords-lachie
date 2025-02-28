@@ -97,13 +97,13 @@ nav ul li a:hover {
 
 .homesec:nth-of-type(1){
     background-size: cover;
-    background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center fixed;
+    background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/dontshow-fullscreen.jpg') no-repeat center center;
     background-position: center;
 }
 
 .homesec:nth-of-type(2){
     background-size: cover;
-    background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/tdw-banner.jpg') no-repeat center center fixed;
+    background: url('https://raw.githubusercontent.com/lachiecroomfie/croomfierecords-lachie/main/pictures/tdw-banner.jpg') no-repeat center center;
     background-position: center;
 }
 
