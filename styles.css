@@ -6,13 +6,10 @@ html, body {
     background-color: #0B4F6E;
     overflow-x: hidden;
     opacity: 0;
-    animation: fadeIn 2s forwards;
+    animation: fadeIn 0.5s forwards;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
     to {
         opacity: 1;
     }
