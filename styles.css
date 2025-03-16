@@ -429,6 +429,25 @@ nav ul li a:hover {
     background-color: black;
 }
 
+.ulb {
+background-color: black;
+font-family: Garamond, serif;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 1rem;
+cursor: pointer;
+margin-top: 20px;
+display: block; 
+margin-left: auto;
+margin-right: auto; 
+width: fit-content; 
+}
+
+.ulb:hover {
+    background-color: black;
+}
+
 /* responsive layout */
 @media screen and (max-width: 768px) {
   .discography {
