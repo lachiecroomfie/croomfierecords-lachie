@@ -461,6 +461,9 @@ width: fit-content;
     .carousel {
         height: 400px;
     }
+    .image-carousel {
+        height: 400px;
+    }
     .button-container {
         flex-direction: column;
         gap: 10px;
