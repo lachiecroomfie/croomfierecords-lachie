@@ -450,11 +450,25 @@ width: fit-content;
 
 /* responsive layout */
 @media screen and (max-width: 768px) {
+     .container {
+        flex-direction: column; 
+        align-items: center;
+    }
+    .product-details {
+        width: 100%; 
+        padding: 10px;
+    }
+    .carousel {
+        height: 400px;
+    }
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
   .discography {
     gap: 1.5em;
     justify-content: center; 
   }
-
   .albums {
     width: 100%; 
     max-width: 200px;  
@@ -463,13 +477,11 @@ width: fit-content;
     gap: 1.5em;
     justify-content: center; 
     }
-    
     .video-gr {
     width: 100%;
-    height: 100%
+    height: 100%;
     max-width: 400px; 
     }
-    
     .upcontainer {
     width: 90%;
     margin: 10px auto;
@@ -482,7 +494,6 @@ width: fit-content;
     justify-content: center;
     gap: 1.5em;  
   }
-
   .albums {
     width: 100%;
     max-width: 250px; 
@@ -491,7 +502,6 @@ width: fit-content;
     gap: 1.5em;
     justify-content: center; 
     }
-    
     .video-gr {
     width: 100%;
     height: 100%;
