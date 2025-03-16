@@ -480,6 +480,7 @@ width: fit-content;
     }
     .image-carousel {
         height: 400px;
+        width: 400px;
     }
     .button-container {
         flex-direction: column;
