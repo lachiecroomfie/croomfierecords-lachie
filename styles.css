@@ -5,16 +5,7 @@ html, body {
     font-family: Garamond, serif;
     background-color: #0B4F6E;
     overflow-x: hidden;
-    opacity: 0;
-    animation: fadeIn ease 0.5s forwards;
 }
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
-}
-
 /*header*/
 body.homepage header {
     color: white;
