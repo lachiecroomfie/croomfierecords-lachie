@@ -398,7 +398,7 @@ nav ul li a:hover {
     width: 50%;
     height: 25%;
     margin: auto;
-    justify-content: center;
+    align-content: center;
 }
 
 .extra-content {
