@@ -199,6 +199,9 @@ nav ul li a:hover {
     justify-content: center;
 }
 
+hr.solid {
+  border-top: 3px solid black;
+
 /*image carousel*/
 
 .carousel {
