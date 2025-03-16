@@ -3,10 +3,8 @@ const images = document.querySelectorAll('.carousel-images img');
 const totalImages = images.length;
 
 function showImage(index) {
-    // Calculate the correct transform value to shift images
-    const offset = -index * 100;  // Shift by 100% width per image
+    const offset = -index * 100; 
 
-    // Apply the transform to the carousel container to show the correct image
     document.querySelector('.carousel-images').style.transform = `translateX(${offset}%)`;
 }
 
@@ -20,10 +18,24 @@ function nextImage() {
     showImage(currentIndex);
 }
 
-// Initialize carousel
 showImage(currentIndex);
 
 function toggleOverlay() {
     const overlay = document.querySelector('.overlay');
     overlay.classList.toggle('active');  // Toggle visibility
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const readMoreButton = document.querySelector(".read-more-btn");
+    const extraContent = document.querySelector(".extra-content");
+
+    readMoreButton.addEventListener("click", () => {
+        extraContent.classList.toggle("show");
+        
+        if (extraContent.classList.contains("show")) {
+            readMoreButton.textContent = "Read Less";
+        } else {
+            readMoreButton.textContent = "Read More";
+        }
+    });
+});
