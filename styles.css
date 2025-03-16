@@ -395,9 +395,9 @@ nav ul li a:hover {
 }
 
 .article img.article-image {
-    width: 100%;
-    height: auto;
-    margin: 20px 0;
+    width: 50%;
+    height: 25%;
+    margin: auto;
     justify-content: center;
 }
 
