@@ -498,3 +498,12 @@ width: fit-content;
     max-width: 400px; 
     }
 }
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #007BFF;
+    width: 800px;
+    margin: 20px auto;
+}
+
