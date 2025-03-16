@@ -395,10 +395,10 @@ nav ul li a:hover {
 }
 
 .article img.article-image {
-    width: 50%;
-    height: 25%;
+    width: 25%;
+    height: 50%;
     margin: auto;
-    align-content: center;
+    display: block;
 }
 
 .extra-content {
