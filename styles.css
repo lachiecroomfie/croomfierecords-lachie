@@ -6,6 +6,22 @@ html, body {
     background-color: #0B4F6E;
     overflow-x: hidden;
 }
+.fade-in {
+    opacity: 0;
+    transition: visibility 0s 0.5s, opacity 0.5s ease-in-out;
+}
+  
+.fade-in.loaded {
+    opacity: 1;
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}  
 /*header*/
 body.homepage header {
     color: white;
