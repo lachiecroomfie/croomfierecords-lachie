@@ -2,6 +2,16 @@ window.addEventListener('load', () => {
     document.body.classList.add('loaded');
   });
 
+function showMenubar() {
+    const navmobile = document.querySelector('.navmobile')
+    navmobile.style.display = 'flex'
+}
+
+function hideMenubar() {
+    const navmobile = document.querySelector('.navmobile')
+    navmobile.style.display = 'none'
+}
+
 let currentIndex = 0;
 const images = document.querySelectorAll('.carousel-images img');
 const totalImages = images.length;
@@ -23,8 +33,3 @@ function nextImage() {
 }
 
 showImage(currentIndex);
-
-function toggleOverlay() {
-    const overlay = document.querySelector('.overlay');
-    overlay.classList.toggle('active');  // Toggle visibility
-}
