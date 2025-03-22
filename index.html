@@ -15,11 +15,18 @@
             </a>
         </div>
         <nav>
-            <ul>
-                <li><a href="music.html">music</a></li>
-                <li><a href="video.html">video</a></li>
-                <li><a href="updates.html">updates</a></li>
+            <ul class="navmobile">
+                <li onclick="hideMenubar()"><i class="fa-solid fa-xmark"></i></li>
+                <li><a href="#">discography</a></li>
+                <li><a href="#">videos</a></li>
+                <li><a href="dontshow.html">updates</a></li>
             </ul>
+            <ul class="navdesktop">
+                <li><a href="#">discography</a></li>
+                <li><a href="#">videos</a></li>
+                <li><a href="dontshow.html">updates</a></li>
+            </ul>
+            <li class="menubar" onclick="showMenubar()"><i class="fa-solid fa-bars"></i></li>
         </nav>
     </header>
 
