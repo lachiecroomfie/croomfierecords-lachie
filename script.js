@@ -1,3 +1,7 @@
+window.addEventListener('load', () => {
+    document.body.classList.add('loaded');
+  });
+
 let currentIndex = 0;
 const images = document.querySelectorAll('.carousel-images img');
 const totalImages = images.length;
