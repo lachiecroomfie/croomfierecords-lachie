@@ -76,15 +76,7 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-
-.container {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
 /*footer*/
-
 .footer {
   background-color: #0B4F6E; 
   position: relative;  
@@ -169,21 +161,19 @@ nav ul li a:hover {
     align-items: center;
     overflow: hidden;
 }
+.socials-icon {
+    padding: 1rem;
+}
 .socials-icon a {
     color: white;
     font-size: 2rem;
-    gap: 2.5rem;
 }
-
-@media screen and (max-width: 768px) {
-  .homesec {
-    justify-content: center; 
-    text-align: center;
-  }
-}
-
 /*album pages*/
-
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 .product-details {
     width: 40%;
     padding: 20px;
@@ -224,7 +214,6 @@ nav ul li a:hover {
 }
 
 /*image carousel*/
-
 .carousel {
     position: relative;
     width: 100%;
@@ -280,7 +269,6 @@ nav ul li a:hover {
 }
 
 /*discography page*/
-
 .discography-title {
   text-align: center; 
   margin-top: 2em; 
@@ -471,8 +459,7 @@ width: fit-content;
 .ulb:hover {
     background-color: black;
 }
-
-/* responsive layout */
+/* mobile-specific */
 @media screen and (max-width: 768px) {
      .container {
         flex-direction: column; 
@@ -497,7 +484,7 @@ width: fit-content;
     gap: 1.5em;
     justify-content: center; 
   }
-  .albums {
+    .albums {
     width: 100%; 
     max-width: 200px;  
   }
@@ -514,6 +501,10 @@ width: fit-content;
     width: 90%;
     margin: 10px auto;
     }
+     .homesec {
+    justify-content: center; 
+    text-align: center;
+  }
 }
 
 /* Desktops */
@@ -544,4 +535,3 @@ hr {
     width: 800px;
     margin: 20px auto;
 }
-
