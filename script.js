@@ -1,5 +1,4 @@
 window.addEventListener('scroll', function () {
-    console.log("Scroll triggered, current scroll position:", window.pageYOffset);
 
     var currentScrollPos = window.pageYOffset;
     var header = document.getElementById("header");
