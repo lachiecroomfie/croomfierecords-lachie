@@ -111,7 +111,6 @@ nav ul li a:hover {
     backdrop-filter: blur(10px);
     margin: 0;
     list-style: none;
-    padding: 20px;
     overflow: hidden;
 }
 .navmobile li {
