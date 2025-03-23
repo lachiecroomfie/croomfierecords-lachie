@@ -13,7 +13,7 @@ window.addEventListener('scroll', function () {
         if (window.prevScrollpos > currentScrollPos) {
             header.style.top = "0";
         } else {
-            header.style.top = "-60px";
+            header.style.top = "-100px";
         }
 
         window.prevScrollpos = currentScrollPos;
