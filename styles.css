@@ -153,6 +153,7 @@ nav ul li a:hover {
   width: 100%;
   font-size: 14px;
   z-index: 3;
+  padding-bottom: 3px;
 }
 
 /*home page*/
@@ -403,6 +404,7 @@ nav ul li a:hover {
   gap: 1em;  
   margin-top: 2em;
   padding: 0 1em;
+  padding-top: 100px;
 }
 
 .video-gr {
