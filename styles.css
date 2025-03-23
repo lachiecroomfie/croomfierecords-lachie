@@ -40,6 +40,7 @@ body.homepage header {
 header {
     color: white;
     padding: 10px 0;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -239,6 +240,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     padding: 20px;
+    padding-top: 100px;
 }
 .product-details {
     width: 40%;
@@ -338,6 +340,7 @@ nav ul li a:hover {
 .discography-title {
   text-align: center; 
   margin-top: 2em; 
+  padding-top: 100px;
 }
 
 .discography-title h1 {
@@ -445,6 +448,7 @@ nav ul li a:hover {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
 }
