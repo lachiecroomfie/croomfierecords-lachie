@@ -1,19 +1,26 @@
 window.addEventListener('scroll', function () {
+    console.log("Scroll triggered, current scroll position:", window.pageYOffset);
 
     var currentScrollPos = window.pageYOffset;
     var header = document.getElementById("header");
 
-    if (typeof window.prevScrollpos === "undefined") {
+    if (currentScrollPos <= 0) {
+        header.style.position = 'fixed';
+        header.style.top = '0';
+    } else {
+        if (typeof window.prevScrollpos === "undefined") {
+            window.prevScrollpos = currentScrollPos;
+        }
+        if (window.prevScrollpos > currentScrollPos) {
+            header.style.top = "0";
+        } else {
+            header.style.top = "-60px";
+        }
+
         window.prevScrollpos = currentScrollPos;
     }
-
-    if (window.prevScrollpos > currentScrollPos) {
-        header.style.top = "0";
-    } else {
-        header.style.top = "-60px"; 
-    }
-    window.prevScrollpos = currentScrollPos;
 });
+
 
 window.addEventListener('load', () => {
     document.body.classList.add('loaded');
