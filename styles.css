@@ -114,8 +114,7 @@ nav ul li a:hover {
 }
 
 .navmobile li {
-    width: 100%;
-    padding-top: 60px;
+    padding-top: 20px;
 }
 .navmobile li a {
     color: white;
