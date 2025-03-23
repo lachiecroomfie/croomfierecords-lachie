@@ -112,6 +112,7 @@ nav ul li a:hover {
     margin: 0;
     list-style: none;
     padding: 20px;
+    overflow: hidden;
 }
 .navmobile li {
     padding-top: 20px;
