@@ -8,7 +8,7 @@
      <script src="https://kit.fontawesome.com/9494aedffb.js" crossorigin="anonymous"></script>
 </head>
 <body class="fade-in">
-    <header>
+    <header id="header">
         <div class="logo">
             <a href="index.html">
                 <img src="./pictures/lachie-logo.png" alt="logo" class="logo-image">
@@ -27,7 +27,7 @@
                 <li class="closemenu" onclick="hideMenubar()"><i class="fa-solid fa-xmark"></i></li>
                 <li><a href="music.html">music</a></li>
                 <li><a href="video.html">video</a></li>
-                <li><a href="#.html">updates</a></li>
+                <li onclick="hideMenubar()"><a>updates</a></li>
             </ul>
     <div class="upcontainer">
         <div class="article">
@@ -37,6 +37,7 @@
             <div id="content1" class="extra-content">
              <p>New site updates include:<br />
                  Optimised mobile menu (rolling out on pages)<br />
+                 Auto appearing header <br />
                  Full width YouTube thumbnails <br />
                  Slight rewordings and corrections. <br />
              </p>   
