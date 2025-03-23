@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fact or fiction | Lachie's Ola</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9494aedffb.js" crossorigin="anonymous"></script>
 </head>
 <body class="fade-in">
-    <header>
+    <header id="header">
         <div class="logo">
             <a href="index.html">
                 <img src="./pictures/lachie-logo.png" alt="logo" class="logo-image">
             </a>
         </div>
         <nav>
-            <ul>
+            <ul class="navdesktop">
                 <li><a href="music.html">music</a></li>
                 <li><a href="video.html">video</a></li>
                 <li><a href="updates.html">updates</a></li>
             </ul>
+            <li class="menubar" onclick="showMenubar()"><i class="fa-solid fa-bars"></i></li>
         </nav>
+    </header>
+    <ul class="navmobile">
+                <li class="closemenu" onclick="hideMenubar()"><i class="fa-solid fa-xmark"></i></li>
+                <li><a href="music.html">music</a></li>
+                <li><a href="video.html">video</a></li>
+                <li><a href="updates.html">updates</a></li>
+            </ul>
     </header>
     <div class="container">
         <div class="image-carousel">
