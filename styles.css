@@ -135,6 +135,9 @@ nav ul li a:hover {
     font-size: 1rem;
     color: white;
 }
+.closemenu:hover {
+    color: red;
+}
 /*footer*/
 .footer {
   background-color: #0B4F6E; 
