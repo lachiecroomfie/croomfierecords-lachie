@@ -349,6 +349,17 @@ nav ul li a:hover {
   color: white; 
   font-weight: bold;
 }
+.discography-title-single {
+  text-align: center; 
+  margin-top: 2em; 
+  padding-top: 100px;
+}
+
+.discography-title-single h1 {
+  font-size: 36px; 
+  color: white; 
+  font-weight: bold;
+}
 
 .discography {
   display: flex;
