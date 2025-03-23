@@ -32,7 +32,7 @@ body.homepage header {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 999;
 }
 
 header {
@@ -43,7 +43,7 @@ header {
     align-items: center;
     top: 0;
     width: 100%;
-    z-index: 1000;
+    z-index: 999;
     height: 60px;
 }
 
@@ -129,6 +129,11 @@ nav ul li a:hover {
     font-size: 1rem;
     padding-right: 40px;
     display: none;
+}
+
+.closemenu {
+    font-size: 1rem;
+    color: white;
 }
 /*footer*/
 .footer {
