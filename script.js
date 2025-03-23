@@ -27,12 +27,16 @@ window.addEventListener('load', () => {
 
 function showMenubar() {
     const navmobile = document.querySelector('.navmobile')
+    const body = document.querySelector('body')
     navmobile.style.display = 'flex'
+    body.style.overflow = 'hidden'
 }
 
 function hideMenubar() {
     const navmobile = document.querySelector('.navmobile')
+    const body = document.querySelector('body')
     navmobile.style.display = 'none'
+    body.style.overflow = 'unset'
 }
 
 let currentIndex = 0;
