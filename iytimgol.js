@@ -1,3 +1,4 @@
+const body = document.querySelector('body')
 const videoLinks = document.querySelectorAll('.video');
 
  videoLinks.forEach(link => {
@@ -17,9 +18,11 @@ const videoLinks = document.querySelectorAll('.video');
    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
 
    overlay.style.display = "flex";
+   body.style.overflow = "hidden";
  }
 
  document.getElementById("close-overlay").addEventListener("click", function() {
+   body.style.overflow = "unset"
    document.getElementById("video-overlay").style.display = "none"; 
    document.getElementById("youtube-video").src = '';
  });
