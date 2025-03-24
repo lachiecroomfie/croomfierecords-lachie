@@ -284,6 +284,12 @@ nav ul li a:hover {
     justify-content: center;
 }
 
+.albumselectcontainer {
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
 /*image carousel*/
 .carousel {
     position: relative;
