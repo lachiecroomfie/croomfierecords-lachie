@@ -273,6 +273,16 @@ nav ul li a:hover {
     margin-top: 20px;
     text-align: center;
 }
+.dl-buttonalways {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
 
 .dl:hover {
     background-color: black;
