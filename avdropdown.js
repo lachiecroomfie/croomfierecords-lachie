@@ -26,7 +26,7 @@ window.onload = function() {
     const selectedDescription = document.getElementById(selectedValue.replace('info', 'description')); 
   
     if (selectedButton) {
-      selectedButton.style.display = "block"; 
+      selectedButton.style.display = "inline-block"; 
     }
   
     if (selectedDescription) {
