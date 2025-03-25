@@ -200,6 +200,27 @@ header .logo-image {
     color: white;
 }
 
+.home-button-video {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: background-color 0.3s;
+    z-index: 15;
+}
+
+.home-button-video:hover {
+    background-color: #0B4F6E;
+    color: white;
+}
+
+.home-button-video:active {
+    background-color: #0B4F6E;
+    color: white;
+}
+
 .socials-container {
     position: relative;
     z-index: 2;
