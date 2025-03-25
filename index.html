@@ -40,9 +40,13 @@
         <h1>DON'T SHOW (BUT DO TELL)</h1>
             <p>New single from Lachie, Out Now</p>
             <div class="button-container">
-                <a href="https://youtu.be/gAEoCP411Lw" class="home-button">LYRIC VIDEO</a>
+                <a href="javascript:void(0);" class="home-button-video">LYRIC VIDEO</a>
                 <a href="dontshow.html" class="home-button">7" SINGLE</a>
         </div>
+    <div id="video-overlay">
+      <button id="close-overlay"><i class="fa-solid fa-xmark"></i></button>
+      <iframe id="youtube-video" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
     </div>
         <div class="socials-container">
             <div class="socials-icon">
@@ -57,5 +61,30 @@
         <p>&copy; 2025 Croomfie Records. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
+    <script>
+  const body = document.querySelector('body');
+  const Button = document.querySelector('.home-button-video');
+  const overlay = document.getElementById("video-overlay");
+  const iframe = document.getElementById("youtube-video");
+  const closeButton = document.getElementById("close-overlay");
+
+  homeButton.addEventListener('click', function() {
+    const videoId = 'gAEoCP411Lw'; 
+    showOverlay(videoId);
+  });
+
+  function showOverlay(videoId) {
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+
+    overlay.style.display = "flex";
+    body.style.overflow = "hidden"; 
+  }
+
+  closeButton.addEventListener("click", function() {
+    body.style.overflow = "unset";
+    overlay.style.display = "none"; 
+    iframe.src = ''; 
+  });
+</script>
 </body>
 </html>
