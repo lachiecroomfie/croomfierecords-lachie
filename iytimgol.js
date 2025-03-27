@@ -15,7 +15,7 @@ const videoLinks = document.querySelectorAll('.video');
    const overlay = document.getElementById("video-overlay");
    const iframe = document.getElementById("youtube-video");
 
-   iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+   iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1`;
 
    overlay.style.display = "flex";
    body.style.overflow = "hidden";
