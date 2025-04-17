@@ -222,6 +222,13 @@ header .logo-image {
 .homepage-minilink {
     font-size: 16px;
     color: whitesmoke;
+    text-decoration: none;
+}
+
+.homepage-minilink a:hover{
+    font-size: 16px;
+    color: whitesmoke;
+    text-decoration: underline;
 }
 
 .home-promo-image-a {
