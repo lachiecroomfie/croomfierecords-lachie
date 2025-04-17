@@ -215,6 +215,10 @@ header .logo-image {
     z-index: 20;
 }
 
+.titlelogo {
+    width: 40%;
+}
+
 .homepage-minilink {
     font-size: 16px;
     color: whitesmoke;
