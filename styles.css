@@ -213,6 +213,8 @@ header .logo-image {
     display: flex;
     justify-content: center;
     z-index: 20;
+    align-items: center;
+    flex-direction: column;
 }
 
 .titlelogo {
@@ -724,6 +726,17 @@ width: fit-content;
     height: 100%;
     max-width: 400px; 
     }
+.home-promo-image-a {
+    left: 17%;
+    top: 21%;
+    width: 21%;
+}
+
+.home-promo-image-b {
+    left: 10%;
+    top: 52%;
+    width: 25%;
+}
 }
 
 hr {
