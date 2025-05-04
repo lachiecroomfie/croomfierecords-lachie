@@ -17,7 +17,7 @@ window.onload = function() {
       button.style.display = "none";
     });
   
-    const descriptions = document.querySelectorAll("p[id^='1-description'], p[id^='2-description']");
+    const descriptions = document.querySelectorAll("p[id^='1-description'], p[id^='2-description'], p[id^='3-description'], p[id^='4-description']");
     descriptions.forEach(description => {
       description.style.display = "none";
     });
