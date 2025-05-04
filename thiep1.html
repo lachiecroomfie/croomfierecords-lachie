@@ -35,7 +35,7 @@
         <div class="image-carousel">
             <div class="carousel">
                 <div class="carousel-images">
-                    <img src="./pictures/thi-cover.jpeg" alt="Front Cover">
+                    <img src="./pictures/thi-cover.jpeg" alt="Front Cover - Chapter Two">
                 </div>
                 <div class="carousel-buttons">
                     <button onclick="prevImage()">&#10094;</button>
@@ -43,14 +43,37 @@
                 </div>
             </div>
         </div>
+        <div class="albumselectcontainer">
+            <select id="album-variant" class="albumvariant">
+                <option value="1-info">Chapter 1: TBA</option>
+                <option value="2-info">Chapter 2: It's Me, Not You</option>
+                <option value="3-info">Chapter 3: TBA</option>
+                <option value="4-info">Chapter 4: TBA</option>
+              </select>
+        </div>  
         <div class="product-details">
-            <h2>The Hurt Inside: It's Me, Not You - EP</h2>
+            <h2>The Hurt Inside: The EPs</h2>
             <p><strong>FREE</strong></p>
-            <a href="https://drive.google.com/file/d/1luVsNDUaSmzvXvVIMyY3DLr59KUKmtpd/view?usp=drive_link" class="dl-button">COMING SOON</a>
-            <p>Lachie's next project avaliable May 2nd at 4:00PM AEDT. <br />
+            <a href="#" class="dl-button" id="1-info">COMING SOON</a>
+            <a href="https://drive.google.com/file/d/1luVsNDUaSmzvXvVIMyY3DLr59KUKmtpd/view?usp=drive_link" class="dl-button" id="2-info">LISTEN NOW</a>
+            <a href="#" class="dl-button" id="3-info">COMING SOON</a>
+            <a href="#" class="dl-button" id="4-info">COMING SOON</a>
+            <p id="1-description"> Stay tuned for more information about this EP - Chapter 1: TBA<br />
                 <br />
                 <br />
-                To Be Released 2nd May<br />
+                To be released Mid-2025<br />
+                <br />
+                <br />
+                Tracklist <br />
+                1. Track One (spoken interlude) <br />
+                2. Track Two <br />
+                3. Track Three<br />
+                4. Track Four<br />
+            </p>
+            <p id="2-description"> The first EP to Lachie's next project, "The Hurt Inside" titled "It's Me, Not You" is out now!<br />
+                <br />
+                <br />
+                Released Sunday May 4th, 2025<br />
                 <br />
                 <br />
                 Tracklist <br />
@@ -59,11 +82,36 @@
                 3. Holding Onto You<br />
                 4. Mood Ring<br />
             </p>
+             <p id="3-description"> Stay tuned for more information about this EP - Chapter 3: TBA<br />
+                <br />
+                <br />
+                To be released TBA<br />
+                <br />
+                <br />
+                Tracklist <br />
+                1. Track One (spoken interlude) <br />
+                2. Track Two <br />
+                3. Track Three<br />
+                4. Track Four<br />
+            </p>
+            <p id="4-description"> Stay tuned for more information about this EP - Chapter 4: TBA<br />
+                <br />
+                <br />
+                To be released TBA<br />
+                <br />
+                <br />
+                Tracklist <br />
+                1. Track One (spoken interlude) <br />
+                2. Track Two <br />
+                3. Track Three<br />
+                4. Track Four<br />
+            </p>
         </div>
     </div>
     <footer class="footer">
         <p>© 2025 Croomfie Records. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script> <!-- Linking the external JavaScript -->
+    <script src="script.js"></script>
+    <script src="avdropdown.js"></script>
 </body>
 </html>
